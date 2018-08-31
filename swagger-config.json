@@ -1,0 +1,8 @@
+{
+  "apiPackage": "com.sample.api",
+  "invokerPackage": "com.sample.invoker",
+  "modelPackage": "com.sample.model",
+  "java8": true,
+  "dateLibrary": "java8-localdatetime",
+  "interfaceOnly": true
+}
