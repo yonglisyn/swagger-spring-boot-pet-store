@@ -1,6 +1,5 @@
-<%--
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -19,9 +18,7 @@
     <div><input type="submit" value="Sign In"/></div>
 </form>
 </body>
-</html>
---%>
-<%--
+</html>--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 </head>
@@ -48,11 +45,10 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password"/>
     </p>
-    <input type="hidden"
+    <%--<input type="hidden"
            name="${_csrf.parameterName}"
-           value="${_csrf.token}"/>
+           value="${_csrf.token}"/>--%>
     <button type="submit">Log in</button>
 </form>
 </body>
 </html>
---%>

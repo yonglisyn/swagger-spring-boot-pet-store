@@ -13,6 +13,11 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * AuthenticationProvider is generally used when your owns system does not own the password, and need to delegate the authentication to another system
+ * UserdetailService is mostly used when your own system own the password.
+ * */
+
 @Component
 public class PetAuthenticationProvider implements AuthenticationProvider {
 
