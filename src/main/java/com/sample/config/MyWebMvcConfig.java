@@ -38,6 +38,11 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("swagger-ui.html")
                 .addResourceLocations("classpath:/META-INF/resources/");
 
+        //can be configured in pom by adding <dependency>
+        //	<groupId>org.webjars</groupId>
+        //	<artifactId>jquery</artifactId>
+        //	<version>2.1.1</version>
+        //</dependency>
         registry.addResourceHandler("/webjars/**")
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
