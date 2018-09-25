@@ -38,7 +38,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) {
-        web.ignoring().antMatchers("/webjars/**", "/images/**", "/oauth/token**", "/oauth/cache_approvals", "/css/**");
+        web.ignoring().antMatchers("/webjars/**", "/images/**", "/oauth/cache_approvals", "/css/**");
     }
 
     @Override

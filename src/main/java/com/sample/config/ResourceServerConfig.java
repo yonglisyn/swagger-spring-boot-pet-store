@@ -31,7 +31,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/login/**", "/error","/step/**","/index/**").permitAll()
+                .antMatchers("/login/**", "/error","/step/**","/").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
